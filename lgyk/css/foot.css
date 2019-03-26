@@ -1,0 +1,117 @@
+﻿
+.bottom-info-wrap{
+	width:100%;
+	background: #070707;
+	margin:0 auto;
+}
+.bottom-info-item{
+	display: inline-block;
+	padding-top: 36px;
+	vertical-align: top;
+	margin-left: 96px;
+}
+.bottom-info-item:nth-of-type(1){
+	margin-left: 6px;
+}
+.bottom-info-item-title{
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	text-align: left;
+}
+.bottom-info-item ul{
+	list-style: none;
+	text-align: left;
+	margin-top: 30px;
+}
+.bottom-info-item ul>li{
+	font-size: 12px;
+	margin-top: 16px;
+	color: #999;
+	cursor: pointer;
+}
+.bottom-info-item ul>li>a{
+	text-decoration: none;
+	color: #999;
+}
+.bottom-info-item ul>li:nth-of-type(1){
+	margin-top: 0px;
+}
+.bottom-info-contact-title{
+	font-size: 16px;
+	color: #fff;
+	font-weight: normal;
+	text-align: left;
+}
+.bottom-wrap{
+	width:1200px;
+	margin:0 auto;
+	/*padding-bottom: 36px;*/
+	text-align: left;
+	position: relative;
+	border-bottom: 1px solid #393939;
+	background: #070707;
+}
+
+.contact-item{
+	width:30px;
+	display: inline-block;
+	margin-left: 36px;
+	cursor: pointer;
+}
+.contact-item:nth-child(1){
+	margin-left: 0px;
+}
+.contact-item img{
+	/*width:100%;*/
+}
+.copy-right{
+	width:1200px;
+	margin: 0 auto;
+	padding-top: 18px;
+	text-align: left;
+	background: #070707;
+}
+.copy-right h2{
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+	padding-bottom: 18px;
+}
+.copy-right h2 a{
+	color: #999;
+}
+
+.wechat-img{
+	width: 156px;
+	position: absolute;
+	top: 20px;
+	right: 180px;
+	/*margin-left: -70px;*/
+	/*opacity: 0;*/
+	transition: 0.5s;
+}
+
+.wechat-img img{
+	width: 100%;
+}
+
+.wechat-img-in{
+	opacity: 1;
+}
+.wechat-img-out{
+	opacity: 0;
+}
+
+.popup-layer{
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: rgba(0,0,0,0.5);
+}
+
+
